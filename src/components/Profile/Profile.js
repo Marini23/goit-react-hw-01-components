@@ -1,5 +1,17 @@
 import PropTypes from 'prop-types';
 
+import {
+    Wrapper,
+    Description,
+    Avatar,
+    Name,
+    Tag,
+    Location,
+    StatsList,
+    StatsItem,
+} from './Profile.styled';
+
+
 const Profile = ({
     avatar,
     username,
@@ -7,33 +19,33 @@ const Profile = ({
     location,
     stats
 }) => {
-    return (<div className="profile">
-        <div className="description">
-            <img
+    return (<Wrapper>
+        <Description>
+            <Avatar
                 src={avatar}
                 alt="User avatar"
                 className="avatar"
             />
-            <p className="name">{username}</p>
-            <p className="tag">{tag}</p>
-            <p className="location">{location}</p>
-        </div>
+            <Name>{username}</Name>
+            <Tag>{`@` +tag}</Tag>
+            <Location>{location}</Location>
+        </Description>
 
-        <ul className="stats">
-            <li>
+        <StatsList>
+            <StatsItem>
                 <span className="label">Followers</span>
                 <span className="quantity">{stats.followers}</span>
-            </li>
-            <li>
+            </StatsItem>
+            <StatsItem>
                 <span className="label">Views</span>
                 <span className="quantity">{stats.views}</span>
-            </li>
-            <li>
+            </StatsItem>
+            <StatsItem>
                 <span className="label">Likes</span>
                 <span className="quantity">{stats.likes}</span>
-            </li>
-        </ul>
-    </div>);
+            </StatsItem>
+        </StatsList>
+    </Wrapper>);
 };
 
 export default Profile;
