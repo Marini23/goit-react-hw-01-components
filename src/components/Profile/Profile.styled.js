@@ -1,15 +1,12 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-width: 800px;
-margin: 0px auto;
 padding: 30px;
 text-align: center;
-background-color: #C8C8C8;
 `;
 
 export const Description = styled.div`
-width: 400px;
+width: 440px;
 display: flex;
 flex-direction: column;
 align-items: center;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ListItemFriend = styled.li`
-width: 370px;
+width: 440px;
 display: flex;
 align-items: center;
 padding: 10px 10px 10px 60px;

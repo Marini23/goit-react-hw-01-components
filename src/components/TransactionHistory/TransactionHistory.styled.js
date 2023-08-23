@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const TableWrapper = styled.table`
-width: 860px;
+width: 440px;
 margin: 0 auto;
-padding: 30px 210px;
-background-color: #C8C8C8;
+padding-top: 30px;
+padding-bottom: 30px;
 `;
 export const TableTitle = styled.th`
 font-size: 16px;

@@ -1,10 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.section`
-width: 800px;
-margin: 0 auto;
 padding: 30px;
-background-color: #C8C8C8;
 `;
 
 export const StatList = styled.ul`
