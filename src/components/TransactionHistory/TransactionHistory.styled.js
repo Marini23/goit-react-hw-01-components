@@ -3,8 +3,7 @@ import styled from 'styled-components';
 export const TableWrapper = styled.table`
 width: 860px;
 margin: 0 auto;
-padding-left: 210px;
-padding-right: 210px;
+padding: 30px 210px;
 background-color: #C8C8C8;
 `;
 export const TableTitle = styled.th`
@@ -24,8 +23,15 @@ height: 20px;
 text-align: center;
 width: calc(100% / 3);
 color: #808080;
-border: 1px solid #663366;
+
 `;
 export const TableRow = styled.tr`
-background-color: #F5F5F5;
+ background-color: ${props => {
+    if (props.$index % 2 !== 0) {
+        return '#EAE7E6';
+    }
+    else { return `#F5F5F5`}
+}}
 `;
+
+    
