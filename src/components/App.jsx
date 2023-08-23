@@ -4,9 +4,9 @@ import user from '../data/user.json';
 import data from '../data/data.json';
 import { Statistics } from './Statistics/Statistics';
 import friends from '../data/friends.json';
-import { FriendList } from './FriendsList';
+import { FriendList } from './FriendsList/FriendsList';
 import transactions from '../data/transactions.json';
-import { TransactionHistory } from './TransactionHistory';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
 
 

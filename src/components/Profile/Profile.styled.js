@@ -31,12 +31,14 @@ margin: 0;`;
 export const Tag = styled.p`
 font-size: 18px;
 line-height: 1.17;
-color: #696969;`;
+color: #696969;
+margin: 0;`;
 
 export const Location = styled.p`
 font-size: 20px;
 line-height: 1.17;
-color: #696969;`;
+color: #696969;
+margin: 0;`;
 
 export const StatsList = styled.ul`
 display: flex;

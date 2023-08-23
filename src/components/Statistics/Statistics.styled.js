@@ -16,6 +16,7 @@ background-color: #F5F5F5;`;
 
 export const StatItem = styled.li`
 width: calc(100% / 5);
+height: 60px;
 display: flex;
 flex-direction: column;
 align-items: center;
