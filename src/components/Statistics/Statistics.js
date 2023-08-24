@@ -12,7 +12,7 @@ export const Statistics = ({ stats, title }) => {
     return (<Wrapper>
 
         
-        {title&&<Title>Upload stats</Title>}
+        {title&&<Title>{title}</Title>}
         
         <StatList>
             {stats.map(item => (
